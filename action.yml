@@ -5,7 +5,7 @@ branding:
 Description: Parses the commit message to determine if a new release should be created
 inputs:
   include_latest:
-    description: "Determines if the latest tag should be updated.  Possible values: false, true"
+    description: "Determines if the latest tag should be updated.  Possible values... false, true"
     required: false
     default: 'false'
   require_flag:
