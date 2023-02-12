@@ -9,7 +9,7 @@ inputs:
     required: false
     default: 'false'
   require_flag:
-    description: "Determines if a flag is needed in the commit message to create a new release, flags include [tag-major] and [tag-minor]""
+    description: "Determines if a flag is needed in the commit message to create a new release, flags include [tag-major] and [tag-minor]"
     required: false
     default: 'false'
   default_type: 
