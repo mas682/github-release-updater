@@ -20,7 +20,7 @@ inputs:
     description: "The commit message to parse Needed to determine what tags to create if require_flag is set"
     required: true
   github_token:
-    description: "Github token"
+    description: "Github token" 
     required: true
 
 runs:
