@@ -1,24 +1,24 @@
 name: Github release updater
 branding:
-  icon: '	chevrons-down'
+  icon: 'chevrons-down'
   color: 'blue'
 Description: Parses the commit message to determine if a new release should be created
 inputs:
   include_latest:
-    description: "Determines if the latest tag should be updated.  Possible values: 'false', 'true'"
+    description: "Determines if the latest tag should be updated.  Possible values: false, true"
     required: false
     default: 'false'
   require_flag:
-    description: Determines if a flag is needed in the commit message to create a new release, flags include [tag-major] and [tag-minor]
+    description: "Determines if a flag is needed in the commit message to create a new release, flags include [tag-major] and [tag-minor]""
     required: false
     default: 'false'
   default_type: 
-    description: This is only considered if the REQUIRE_FLAG is false.  This allows you to automatically update the
-                  major or minor part of a tag automatically.  Possible values are tag-minor or tag-major
+    description: "This is only considered if the REQUIRE_FLAG is false.  This allows you to automatically update the
+                  major or minor part of a tag automatically.  Possible values are tag-minor or tag-major"
     required: false
     default: 'tag-minor'
   commit_message:
-    description: The commit message to parse; Needed to determine what tags to create if require_flag is set
+    description: "The commit message to parse; Needed to determine what tags to create if require_flag is set"
     required: true
   github_token:
     descripiton: "Github token"
