@@ -1,0 +1,17 @@
+{
+    "jest.jestCommandLine": "jest",
+    "jest.rootPath": "",
+    "jest.coverageColors": {
+      "covered": "rgba(9, 156, 65, 0.4)",
+      "uncovered": "rgba(121, 31, 10, 0.4)",
+      "partially-covered": "rgba(235, 198, 52, 0.4)",
+    },
+    "jest.autoRun": "watch",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+      "javascript"
+    ],
+    "eslint.codeActionsOnSave.rules": null
+}
