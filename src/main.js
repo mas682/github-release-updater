@@ -1,5 +1,5 @@
 module.exports = async ({github, context}) => {
-  const TagUpdater = require('./TagUpdater');
+  const TagUpdater = require('../TagUpdater');
   let includeLatest = process.env.INCLUDE_LATEST == "true";
   let commitMessage = process.env.COMMIT_MESSAGE;
   let requireFlag = process.env.REQUIRE_FLAG == "true";
