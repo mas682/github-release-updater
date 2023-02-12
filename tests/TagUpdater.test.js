@@ -1,4 +1,4 @@
-const TagUpdater = require('../src/TagUpdater');
+const TagUpdater = require('../TagUpdater');
 const tagUpdater = new TagUpdater();
 
 describe('updateTags', () => {
