@@ -42,5 +42,5 @@ runs:
       with:
         github-token: ${{ inputs.github_token }}
         script: |
-          const script = require("./src/main.js")
-          script({github, context})
+          const script = require("./src/main.js");
+          script({github, context});
